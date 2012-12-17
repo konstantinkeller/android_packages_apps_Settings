@@ -58,6 +58,21 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
+    <!-- PCF Links -->
+    <header
+        android:id="@+id/pcf_links"
+        android:title="@string/pcf_links_title" />
+
+    <header
+        android:id="@+id/themes"
+        android:title="@string/themes_title"
+        android:icon="@drawable/ic_settings_themes" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.tmobile.themechooser"
+            android:targetClass="com.tmobile.themechooser.ThemeChooser" />
+    </header>
+
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />

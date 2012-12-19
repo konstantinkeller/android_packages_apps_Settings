@@ -4400,6 +4400,8 @@
 
     <string name="pcf_links_title">PCF Settings</string>
     <string name="themes_title">Themes</string>
+    <string name="rom_settings_title">ROM Settings</string>
+    <string name="status_bar_stub">Status Bar</string>
 
     <!-- PCF Additions End -->
 

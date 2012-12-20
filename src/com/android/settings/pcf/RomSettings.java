@@ -21,8 +21,12 @@ public class RomSettings extends SettingsPreferenceFragment {
 
     private static final String TAG = "ROM Settings";
     private static final String KEY_STATUS_BAR = "status_bar";
+    // private static final String KEY_NAVIGATION_BAR = "navigation_bar";
+    // private static final String KEY_GENERAL_UI = "general_ui";
 
     private PreferenceScreen mStatusBar;
+    // private PreferenceScreen mNavigationBar;
+    // private PreferenceScreen mGeneralUi;
 
     private final Configuration mCurConfig = new Configuration();
 
@@ -33,5 +37,8 @@ public class RomSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.extras_settings);
 
         mStatusBar = (PreferenceScreen) findPreference(KEY_STATUS_BAR);
+	    // mNavigationBar = (PreferenceScreen) findPreference(KEY_NAVIGATION_BAR);
+        // mGeneralUi = (PreferenceScreen) findPreference(KEY_GENERAL_UI);
+
     }
 }

@@ -65,6 +65,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
+    private static final String KEY_MOD_VERSION = "pcf_version";
 
     long[] mHits = new long[3];
     int mDevHitCountdown;
@@ -85,6 +86,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
+        setValueSummary(KEY_MOD_VERSION, "ro.pcf.version");
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);

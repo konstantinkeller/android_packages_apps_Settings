@@ -4406,6 +4406,9 @@
     <string name="title_statusbar_battery">Battery Icon</string>
     <string name="battery_icon">Battery Icon</string>
 
+    <string name="pcf_version">PCF Version</string>
+    <string name="pcf_version_default">Unknown</string>
+
     <!-- PCF Additions End -->
 
 </resources>

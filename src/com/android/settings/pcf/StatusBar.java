@@ -11,8 +11,7 @@ import android.provider.Settings;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 
-public class StatusBar extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+public class StatusBar extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String PREF_BATT_ICON = "battery_icon_list";
 
@@ -22,7 +21,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Load the preferences from an XML resource
-        addPreferencesFromResource(R.xml.prefs_statusbar_battery);
+        addPreferencesFromResource(R.xml.prefs_statusbar);
 
         mBatteryIcon = (ListPreference) findPreference(PREF_BATT_ICON);
         mBatteryIcon.setOnPreferenceChangeListener(this);
@@ -32,7 +31,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
                 + "");
     }
 
-    public boolean OnPreferenceChange(Preference preference, Object newValue) {
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mBatteryIcon) {
             int val = Integer.parseInt((String) newValue);
             return Settings.System.putInt(getActivity().getContentResolver(),

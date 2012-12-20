@@ -19,6 +19,7 @@ package com.android.settings;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.Fragment;
+import android.content.Context;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -47,6 +48,8 @@ public class SettingsPreferenceFragment extends PreferenceFragment implements Di
     private SettingsDialogFragment mDialogFragment;
 
     private String mHelpUrl;
+    
+    protected context mContext;
 
     @Override
     public void onCreate(Bundle icicle) {

@@ -4402,6 +4402,7 @@
     <string name="themes_title">Themes</string>
     <string name="rom_settings_title">ROM Settings</string>
     <string name="status_bar_stub">Status Bar</string>
+    <string name="status_bar_extras">Status Bar</string>
 
     <!-- PCF Additions End -->
 

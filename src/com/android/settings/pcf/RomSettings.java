@@ -19,7 +19,7 @@ import com.android.settings.util.Helpers;
 
 public class RomSettings extends SettingsPreferenceFragment {
 
-    private static final String TAG = "ROM Settings";
+    private static final String TAG = "RomSettings";
     private static final String KEY_STATUS_BAR = "status_bar";
     // private static final String KEY_NAVIGATION_BAR = "navigation_bar";
     // private static final String KEY_GENERAL_UI = "general_ui";

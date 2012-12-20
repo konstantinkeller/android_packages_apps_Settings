@@ -37,7 +37,7 @@ public class RomSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.extras_settings);
 
         mStatusBar = (PreferenceScreen) findPreference(KEY_STATUS_BAR);
-	    // mNavigationBar = (PreferenceScreen) findPreference(KEY_NAVIGATION_BAR);
+	// mNavigationBar = (PreferenceScreen) findPreference(KEY_NAVIGATION_BAR);
         // mGeneralUi = (PreferenceScreen) findPreference(KEY_GENERAL_UI);
 
     }

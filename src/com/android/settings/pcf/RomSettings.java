@@ -1,18 +1,15 @@
 package com.android.settings.pcf;
 
-import android.app.ActivityManagerNative;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.RemoteException;
-import android.os.ServiceManager;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 import android.util.Log;
-import android.view.IWindowManager;
 import android.view.View.OnClickListener;
 
 import com.android.settings.R;
@@ -40,7 +37,7 @@ public class RomSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.extras_settings);
 
         mStatusBar = (PreferenceScreen) findPreference(KEY_STATUS_BAR);
-	// mNavigationBar = (PreferenceScreen) findPreference(KEY_NAVIGATION_BAR);
+	    // mNavigationBar = (PreferenceScreen) findPreference(KEY_NAVIGATION_BAR);
         // mGeneralUi = (PreferenceScreen) findPreference(KEY_GENERAL_UI);
 
     }

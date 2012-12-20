@@ -49,7 +49,7 @@ public class SettingsPreferenceFragment extends PreferenceFragment implements Di
 
     private String mHelpUrl;
     
-    protected context mContext;
+    protected Context mContext;
 
     @Override
     public void onCreate(Bundle icicle) {

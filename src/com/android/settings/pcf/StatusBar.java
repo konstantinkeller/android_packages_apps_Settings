@@ -11,7 +11,7 @@ import android.provider.Settings;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 
-public class StatusBarBattery extends SettingsPreferenceFragment implements
+public class StatusBar extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String PREF_BATT_ICON = "battery_icon_list";

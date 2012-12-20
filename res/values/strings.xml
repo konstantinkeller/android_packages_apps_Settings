@@ -4403,6 +4403,7 @@
     <string name="rom_settings_title">ROM Settings</string>
     <string name="status_bar_stub">Status Bar</string>
     <string name="status_bar_extras">Status Bar</string>
+    <string name="title_statusbar_battery">Battery Icon</string>
 
     <!-- PCF Additions End -->
 

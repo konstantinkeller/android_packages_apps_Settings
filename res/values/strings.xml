@@ -4404,6 +4404,7 @@
     <string name="status_bar_stub">Status Bar</string>
     <string name="status_bar_extras">Status Bar</string>
     <string name="title_statusbar_battery">Battery Icon</string>
+    <string name="battery_icon">Battery Icon</string>
 
     <!-- PCF Additions End -->
 

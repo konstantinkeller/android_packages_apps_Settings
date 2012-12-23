@@ -52,8 +52,7 @@ public class StatusBarToggles extends SettingsPreferenceFragment {
 
         mEnabledToggles = findPreference(PREF_ENABLE_TOGGLES);
 
-        int mTabletui = Settings.System.getInt(mContext.getContentResolver(),
-                           Settings.System.TABLET_UI, 0);
+        int mTabletui = 0;
 
         mLayout = findPreference("toggles");
 

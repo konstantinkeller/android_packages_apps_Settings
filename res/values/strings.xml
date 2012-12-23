@@ -4406,7 +4406,7 @@
     <string name="title_statusbar_battery">Battery Icon</string>
     <string name="battery_icon">Battery Icon</string>
     <string name="battery_icon_summary">Choose Which Battery Icon to Display</string>
-    <string name="title_statusbar_toggles">Enabled Toggles</string>
+    <string name="title_statusbar_toggles">Status Bar Toggles</string>
     <string name="toggles_header_title">Status Bar Toggles</string>
     <string name="icon_customization_title">Icon Customization</string>
     <string name="enabled_toggles_title">Enabled Toggles</string>

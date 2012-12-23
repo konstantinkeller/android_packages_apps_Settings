@@ -4432,6 +4432,16 @@
     <string name="toggle_airplane_mode">Airplane Mode</string>
     <string name="toggle_bluetooth">Bluetooth</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>   
+    <string name="arrow_right">.</string> 
+    <string name="arrow_down">.</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FF000000</string>
+    <string name="set">Set</string>
+    <string name="ics_color">Holo</string>
+
     <!-- PCF Additions End -->
 
 </resources>

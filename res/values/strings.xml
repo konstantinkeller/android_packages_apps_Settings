@@ -4405,9 +4405,32 @@
     <string name="status_bar_extras">Status Bar</string>
     <string name="title_statusbar_battery">Battery Icon</string>
     <string name="battery_icon">Battery Icon</string>
+    <string name="battery_icon_summary">Choose Which Battery Icon to Display</string>
+    <string name="title_statusbar_toggles">Enabled Toggles</string>
+    <string name="toggles_header_title">Status Bar Toggles</string>
+    <string name="icon_customization_title">Icon Customization</string>
+    <string name="enabled_toggles_title">Enabled Toggles</string>
+    <string name="enabled_toggles_summary">Choose Which Toggles to Display</string>
+    <string name="toggles_display_dialog">Choose Which Toggles to User</string>
+    <string name="toggles_display_close">Close</string>
+    <string name="toggles_order_title">Toggle Orders</string>
+    <string name="toggles_order_summary">Choose The Order Toggles Are Displayed</string>
 
     <string name="pcf_version">PCF Version</string>
     <string name="pcf_version_default">Unknown</string>
+
+    <string name="toggle_user">User</string>
+    <string name="toggle_brightness">Brightness</string>
+    <string name="toggle_settings">Settings</string>
+    <string name="toggle_wifi">Wifi</string>
+    <string name="toggle_signal">Mobile Data</string>
+    <string name="toggle_auto_rotate">Auto Rotate</string>
+    <string name="toggle_clock">Clock</string>
+    <string name="toggle_gps">GPS</string>
+    <string name="toggle_ime">IME</string>
+    <string name="toggle_battery">Battery</string>
+    <string name="toggle_airplane_mode">Airplane Mode</string>
+    <string name="toggle_bluetooth">Bluetooth</string>
 
     <!-- PCF Additions End -->
 

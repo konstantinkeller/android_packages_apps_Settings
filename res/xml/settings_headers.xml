@@ -64,10 +64,10 @@
         android:title="@string/pcf_links_title" />
 
     <header
-        android:id="@+id/rom_settings"
+        android:id="@+id/extras"
         android:title="@string/rom_settings_title"
         android:icon="@drawable/ic_settings_advanced"
-        android:fragment="com.android.settings.pcf.RomSettings" />
+        android:fragment="com.android.settings.pcf.Extras" />
 
     <header
         android:id="@+id/themes"

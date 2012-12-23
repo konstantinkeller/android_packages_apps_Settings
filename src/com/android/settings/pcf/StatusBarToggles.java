@@ -34,7 +34,7 @@ import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 import java.util.ArrayList;
 
-public class StatusBarToggles extends SettingsPreferenceFragment implements {
+public class StatusBarToggles extends SettingsPreferenceFragment {
 
     private static final String TAG = "TogglesLayout";
 

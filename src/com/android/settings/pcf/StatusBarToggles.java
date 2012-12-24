@@ -294,7 +294,7 @@ public class StatusBarToggles extends SettingsPreferenceFragment {
                 newToggles);
     }
 
-    public  ArrayList<String> getTogglesStringArray(Context c) {
+    public ArrayList<String> getTogglesStringArray(Context c) {
         String clusterfuck = Settings.System.getString(c.getContentResolver(),
                 Settings.System.QUICK_TOGGLES);
 

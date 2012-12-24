@@ -116,19 +116,19 @@ public class StatusBarToggles extends SettingsPreferenceFragment {
 
     }
 
-    public static void addToggle(Context context, String key) {
+    public void addToggle(Context context, String key) {
         ArrayList<String> enabledToggles = getTogglesStringArray(context);
         enabledToggles.add(key);
         setTogglesFromStringArray(context, enabledToggles);
     }
 
-    public static void removeToggle(Context context, String key) {
+    public void removeToggle(Context context, String key) {
         ArrayList<String> enabledToggles = getTogglesStringArray(context);
         enabledToggles.remove(key);
         setTogglesFromStringArray(context, enabledToggles);
     }
 
-    public static class TogglesLayout extends ListFragment {
+    public class TogglesLayout extends ListFragment {
 
         private ListView mButtonList;
         private ButtonAdapter mButtonAdapter;

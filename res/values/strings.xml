@@ -4419,7 +4419,7 @@
     <string name="pcf_version">PCF Version</string>
     <string name="pcf_version_default">Unknown</string>
 
-    <string name="toggle_default_entries">USER|BRIGHTNESS|SETTINGS|WIFI|MOBILE_DATA|ROTATE|BATTERY|AIRPLANE_MODE|BLUETOOTH</string>
+    <string name="toggle_default_entries">USER|BRIGHTNESS|SETTINGS|WIFI|SIGNAL|ROTATE|BATTERY|AIRPLANE_MODE|BLUETOOTH</string>
     <string name="toggle_user">User</string>
     <string name="toggle_brightness">Brightness</string>
     <string name="toggle_settings">Settings</string>

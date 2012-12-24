@@ -2,10 +2,6 @@
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
-        <header
-            android:id="@+id/icon_customization"
-            android:title="@string/icon_customization_title" />
-
         <ListPreference
 	    android:key="battery_icon_list"
 	    android:title="@string/battery_icon"
@@ -13,13 +9,8 @@
             android:entries="@array/battery_icon_entries"
 	    android:entryValues="@array/battery_icon_values" />
 
-        <header
-            android:id="@+id/toggles_title"
-            android:title="@string/toggles_header_title" />
-
-        <header
+        <PreferenceScreen
             android:key="enabled_toggles"
-            android:id="@+id/statusbar_toggles"
             android:title="@string/title_statusbar_toggles"
             android:fragment="com.android.settings.pcf.StatusBarToggles" />
 

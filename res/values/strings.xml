@@ -4405,16 +4405,16 @@
     <string name="status_bar_extras">Status Bar</string>
     <string name="title_statusbar_battery">Battery Icon</string>
     <string name="battery_icon">Battery Icon</string>
-    <string name="battery_icon_summary">Choose Which Battery Icon to Display</string>
+    <string name="battery_icon_summary">Choose which battery icon to display</string>
     <string name="title_statusbar_toggles">Status Bar Toggles</string>
     <string name="toggles_header_title">Status Bar Toggles</string>
     <string name="icon_customization_title">Icon Customization</string>
     <string name="enabled_toggles_title">Enabled Toggles</string>
-    <string name="enabled_toggles_summary">Choose Which Toggles to Display</string>
-    <string name="toggles_display_dialog">Choose Which Toggles to User</string>
+    <string name="enabled_toggles_summary">Choose which toggles to display</string>
+    <string name="toggles_display_dialog">Choose which toggles to use</string>
     <string name="toggles_display_close">Close</string>
-    <string name="toggles_order_title">Toggle Orders</string>
-    <string name="toggles_order_summary">Choose The Order Toggles Are Displayed</string>
+    <string name="toggles_order_title">Order of Toggles</string>
+    <string name="toggles_order_summary">Choose the order of which toggles are displayed</string>
 
     <string name="pcf_version">PCF Version</string>
     <string name="pcf_version_default">Unknown</string>

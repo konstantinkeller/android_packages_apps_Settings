@@ -795,7 +795,7 @@
         <item>BRIGHTNESS</item>
         <item>SETTINGS</item>
         <item>WIFI</item>
-        <item>SIGNAL</item>
+        <item>MOBILE_DATA</item>
         <item>ROTATE</item>
         <item>CLOCK</item>
         <item>GPS</item>
@@ -803,6 +803,7 @@
         <item>BATTERY</item>
         <item>AIRPLANE_MODE</item>
         <item>BLUETOOTH</item>
+        <item>TORCH</item>
     </string-array>
     <string-array name="available_toggles_values" translatable="false">
         <item>@string/toggle_user</item>
@@ -817,5 +818,6 @@
         <item>@string/toggle_battery</item>
         <item>@string/toggle_airplane_mode</item>
         <item>@string/toggle_bluetooth</item>
+        <item>@string/toggle_torch</item>
     </string-array>
 </resources>

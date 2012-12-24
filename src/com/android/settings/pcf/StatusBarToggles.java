@@ -301,7 +301,7 @@ public class StatusBarToggles extends SettingsPreferenceFragment {
         if (clusterfuck == null) {
             Log.e(TAG, "clusterfuck was null");
             // return null;
-            clusterfuck = "USER|BRIGHTNESS|SETTINGS|WIFI|SIGNAL|ROTATE|BATTERY|AIRPLANE_MODE|BLUETOOTH";
+            clusterfuck = getResources().getString(R.string.toggle_default_entries);
         }
 
         String[] togglesStringArray = clusterfuck.split("\\|");
